@@ -1,9 +1,9 @@
 {
-  "release": "original-tables-1.0",
+  "release": "original-tables-1.1",
   "license": "AGPL-3.0-only",
   "authorship": "Original program-generated tables and reference answers by cqqcww and contributors",
-  "total_questions": 276,
-  "total_documents": 48,
+  "total_questions": 508,
+  "total_documents": 112,
   "datasets": [
     {
       "name": "synthetic_v1",
@@ -34,6 +34,36 @@
       },
       "current_use": "development_and_regression",
       "metadata_sha256": "67f2e196a1aff22f760333c949f091382c5f1febacb682e574f9c58ceefb0c5d"
+    },
+    {
+      "name": "layout_diagnostics_v1",
+      "documents": 24,
+      "questions": 72,
+      "question_types": {
+        "extract": 72
+      },
+      "historical_splits": {
+        "dev": 54,
+        "confirmation": 18
+      },
+      "current_use": "development_and_regression",
+      "metadata_sha256": "54453c6ec0174b4a70974707cdf060d918389b76750d4528d26a60aff53f04ff"
+    },
+    {
+      "name": "structure_diagnostics_v2",
+      "documents": 40,
+      "questions": 160,
+      "question_types": {
+        "extract": 120,
+        "structure": 40
+      },
+      "historical_splits": {
+        "train": 24,
+        "dev": 40,
+        "confirmation": 96
+      },
+      "current_use": "mixed; see per-document and per-question status",
+      "metadata_sha256": "f0ac54c8128c07d59052eb84c484e786a21512aa781263cff128ba64885f46dc"
     }
   ]
 }

@@ -135,7 +135,7 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('command',choices=['verify','stats','export'])
     parser.add_argument('--dataset',default='all')
-    parser.add_argument('--split',choices=['all','dev','holdout'],default='all')
+    parser.add_argument('--split',choices=['all','train','dev','holdout','confirmation'],default='all')
     parser.add_argument('--output',type=Path)
     args=parser.parse_args()
     try:
