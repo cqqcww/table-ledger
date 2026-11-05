@@ -1,0 +1,39 @@
+{
+  "release": "original-tables-1.0",
+  "license": "AGPL-3.0-only",
+  "authorship": "Original program-generated tables and reference answers by cqqcww and contributors",
+  "total_questions": 276,
+  "total_documents": 48,
+  "datasets": [
+    {
+      "name": "synthetic_v1",
+      "documents": 36,
+      "questions": 216,
+      "question_types": {
+        "extract": 108,
+        "thinking": 72,
+        "structure": 36
+      },
+      "historical_splits": {
+        "dev": 144,
+        "holdout": 72
+      },
+      "current_use": "development_and_regression",
+      "metadata_sha256": "df80a0b83a93545da4f31784d63cde69be579b450577ff46f47cf8344fad7f86"
+    },
+    {
+      "name": "chinese_diagnostics_v1",
+      "documents": 12,
+      "questions": 60,
+      "question_types": {
+        "extract": 36,
+        "thinking": 24
+      },
+      "historical_splits": {
+        "holdout": 60
+      },
+      "current_use": "development_and_regression",
+      "metadata_sha256": "67f2e196a1aff22f760333c949f091382c5f1febacb682e574f9c58ceefb0c5d"
+    }
+  ]
+}

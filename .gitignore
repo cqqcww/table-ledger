@@ -14,4 +14,6 @@ outputs/
 *.pdf
 *.png
 *.jpg
+!benchmarks/*/files/*.png
+!benchmarks/*/files/*.pdf
 .DS_Store
