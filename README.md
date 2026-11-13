@@ -78,3 +78,6 @@ python benchmarks/manage.py export --output /tmp/table-ledger-inputs.jsonl
 ## 许可证
 
 原创扩展、自建合成数据及生成脚本采用 **AGPL-3.0-only**。详见 [LICENSE](LICENSE)。网络服务中的修改版本也受该许可证相关源码提供条款约束；允许商业使用。基础组件和其他独立依赖不因本仓库的许可证而自动获得授权，见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+## 开发与验证说明
+
+设计演进、证据约束、合成修复示例及数据使用边界见 [开发与验证说明](docs/engineering-guide.md)。该文区分实验能力与当前可安装包，不将全部本地分支视为默认功能。
